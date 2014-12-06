@@ -15,7 +15,7 @@ header{
 h1{
     color: #4ead77;
     font-family: 'Droid Sans', sans-serif;
-    font-size: 40px;
+    font-size: 3em;
 }
 
 h3{
@@ -27,13 +27,14 @@ h3{
 h4{
     color: #9b9b9b;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 80px;
+    margin-top: 70px;
     text-align: center;
 }
 
 p{
     color: #212121;
 	font-size: 5em;
+    text-align: center;
 	height: 100px;
 }
 
@@ -93,3 +94,24 @@ footer{
 
 a{color: #707070;}
 a:hover{color:#515151;}
+
+@media (max-width: 600px) {
+
+h1{
+    font-size:3em;
+}
+
+p{
+    font-size: 2.7em;
+}
+
+h4{
+    font-size:1.4em; 
+}
+
+footer{
+    width: 90%;
+}
+
+
+  }
