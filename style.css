@@ -1,0 +1,53 @@
+body{
+	background-color: #F0F0F0;
+	font-family: "Helvetica";
+}
+
+div{
+	margin: 0 auto;
+	text-align: center;
+}
+
+p{
+	font-size: 5em;
+	height: 100px;
+}
+
+button {
+	
+    color: #fff;
+    text-decoration: none;
+    background-color: #47B677;
+    border:none;
+    cursor: pointer;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px #2C9156;
+    -moz-box-shadow:0px 9px 0px #2C9156;
+    box-shadow: 0px 9px 0px #2C9156;
+    margin: 0px auto;
+	width: 250px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+button:active {
+    -webkit-box-shadow: 0px 3px 0px #2C9156;
+    -moz-box-shadow: 0px 3px 0px #2C9156;
+    box-shadow: 0px 3px 0px #2C9156;
+    position: relative;
+    top: 6px;
+}
+
+button:focus {outline:0;}

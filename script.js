@@ -163,7 +163,11 @@ var smiley =[
   {"value":"(ᵒ̤̑ ₀̑ ᵒ̤̑)"},
   {"value":"\_(ʘ_ʘ)_/"}
 ];
-  
+
+var x = Math.floor((Math.random() * smiley.length) + 0);
+
+document.getElementById('content').innerHTML= smiley[x].value;
+
 
 function next(){
 
