@@ -95,23 +95,3 @@ footer{
 a{color: #707070;}
 a:hover{color:#515151;}
 
-@media (max-width: 600px) {
-
-h1{
-    font-size:3em;
-}
-
-p{
-    font-size: 2.7em;
-}
-
-h4{
-    font-size:1.4em; 
-}
-
-footer{
-    width: 90%;
-}
-
-
-  }
