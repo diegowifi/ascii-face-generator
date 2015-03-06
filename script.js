@@ -164,14 +164,9 @@ var smiley =[
 ];
 
 var x = Math.floor((Math.random() * smiley.length) + 0);
-
 document.getElementById('content').innerHTML= smiley[x].value;
 
-
 function next(){
-
-	var x = Math.floor((Math.random() * smiley.length) + 0);
-
-	document.getElementById('content').innerHTML= smiley[x].value;
-
+  var x = Math.floor((Math.random() * smiley.length) + 0);
+  document.getElementById('content').innerHTML= smiley[x].value;
 };
